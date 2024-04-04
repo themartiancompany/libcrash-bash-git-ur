@@ -1,0 +1,20 @@
+pkgbase = libcrash-bash-git
+	pkgdesc = Bash utility functions
+	pkgver = 0.0.0.0.0.0.1.r1.gd250fe0fd48e92498c7012aa2f958251bb483fa0
+	pkgrel = 1
+	url = https://github.com/themartiancompany/crash-bash
+	arch = any
+	groups = hip
+	groups = hip-git
+	license = AGPL3
+	checkdepends = shellcheck
+	makedepends = make
+	makedepends = curl
+	makedepends = jq
+	depends = bash
+	provides = libcrash-bash=0.0.0.0.0.0.1.r1.gd250fe0fd48e92498c7012aa2f958251bb483fa0
+	conflicts = libcrash-bash
+	source = crash-bash-master.tar.gz::https://github.com/themartiancompany/crash-bash/archive/refs/heads/master.tar.gz
+	sha256sums = SKIP
+
+pkgname = libcrash-bash-git
